@@ -1,4 +1,4 @@
-# Reproducible_Research - Peer Assignment One for Coursera #
+# Reproducible_Research - Peer Assignment One #
 
 ## Introduction ##
 
