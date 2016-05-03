@@ -50,6 +50,7 @@ The dataset is stored in a comma-separated-value (CSV) file and there are a tota
              x = "Steps per Day", 
              y = "Occurances")
 ```
+
 ###   Calculate and report the mean and median of the total number of steps taken per day
 ```{r Q1b}
     mean.steps <- round(mean(steps$steps, na.rm=TRUE))
@@ -75,6 +76,7 @@ The dataset is stored in a comma-separated-value (CSV) file and there are a tota
              x = "Time of Day", 
              y = "Average Steps")
 ```
+
 ###   Which 5-minute interval, on average across all the days, contains the maximum number of steps?
 ```{r Q2b}
     max.interval <- interval[which.max(interval$steps),]
@@ -113,6 +115,7 @@ There are a number of days/intervals where there are missing values (coded as NA
         x = "Steps per day",
         y = "Occurances")
 ```
+
 ###   Calculate and report the mean and median total number of steps taken per day   ###
 ```{r Q2b5}
     mean.steps <- round(mean(filled_steps$steps, na.rm=TRUE))
